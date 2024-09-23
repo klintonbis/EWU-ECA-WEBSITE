@@ -1,0 +1,243 @@
+.header-left img {
+    height: 80px;
+    width: auto;
+  }
+  
+  .header-right {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .marquee-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,white,royalblue );
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left-side, .right-side {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+   background-color: lightblue;
+  }
+  
+  .marquee {
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .marquee marquee {
+    width: 100%;
+  }
+  
+  .auth-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2px;
+    background-color: black;
+  } 
+  
+  .auth-section a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 2px;
+  }
+  
+  .auth-section a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .notice{
+    color: royalblue;
+    font-size: 20px;
+    background-color: black;
+  }
+    
+  
+  
+
+/* Vertical Navbar styling */
+/* Vertical Navbar styling */
+.top-header {
+    
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right,white,royalblue );
+  padding: 2px;
+  
+ 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  /* Navbar Styles */
+  
+  
+  /* Q&A Section Styles */
+  .qa-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .qa-container {
+    margin-bottom: 30px;
+  }
+  
+  .qa-item {
+    margin-bottom: 20px;
+  }
+  
+  .qa-item h3 {
+    margin-bottom: 5px;
+    color: #0059b3;
+  }
+  
+  /* Form Styles */
+  .ask-question-form {
+    padding: 20px;
+    background-color: #e6f0ff;
+    border-radius: 5px;
+  }
+  
+  .ask-question-form h3 {
+    margin-bottom: 10px;
+  }
+  
+  .ask-question-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .ask-question-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .ask-question-form button {
+    background-color: #0059b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .ask-question-form button:hover {
+    background-color: #004080;
+  }
+
+  footer {
+    background-color:royalblue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 120px;
+    height: 200px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .link-section {
+    margin-top: 10px;
+    
+  }
+  
+  .footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+   
+  
+  
+  .logo-section a[href*="youtube.com"] i {
+    color: #FF0000; /* YouTube red */
+  }
+  .logo-section a[href*="twitter.com"] i {
+    color: #000000; /* Twitter black */
+  }
+  .logo-section a[href*="geogle.com"] i {
+    background: linear-gradient(to right, #FF0000, #FFEB3B, #4CAF50,blue); /* Google colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transparent-repeat:no-repeat;
+  }
+
+  .vertical-navbar {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    height: 100%;
+    width: 200px; /* Adjust width as needed */
+    background-color: #f4f4f4;
+    padding-top: 2px;
+    z-index: 999;
+    border-right: 2px solid #ddd;
+    
+}
+
+.vertical-navbar ul {
+    list-style-type: none;
+}
+
+.vertical-navbar li {
+   padding: 3px;
+    text-align: left;
+    
+}
+
+.vertical-navbar img {
+    width: 30px; /* Adjust size as needed */
+    vertical-align: middle;
+}
+
+.vertical-navbar a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-top: 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.vertical-navbar a:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+  
+
+  

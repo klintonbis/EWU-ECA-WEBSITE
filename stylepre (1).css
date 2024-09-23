@@ -1,0 +1,124 @@
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content li {
+    list-style-type: none;
+    padding: 8px 12px;
+}
+
+.dropdown-content li a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content on hover for Gallery */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Get Involved Dropdown */
+.dropdowno {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdowno a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.dropdowno img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Get Involved Dropdown Content */
+.dropdown-contento {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-contento li {
+    list-style-type: none;
+    padding: 8px 12px;
+}
+
+.dropdown-contento li a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contento li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content on hover for Get Involved */
+.dropdowno:hover .dropdown-contento {
+    display: block;
+}
+footer {
+    background-color:royalblue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 120px;
+    height: 200px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .link-section {
+    margin-top: 10px;
+    
+  }
+  
+  .footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+   
+  
+  
+  .logo-section a[href*="youtube.com"] i {
+    color: #FF0000; /* YouTube red */
+  }
+  .logo-section a[href*="twitter.com"] i {
+    color: #000000; /* Twitter black */
+  }
+  .logo-section a[href*="geogle.com"] i {
+    background: linear-gradient(to right, #FF0000, #FFEB3B, #4CAF50,blue); /* Google colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transparent-repeat:no-repeat;
+  }

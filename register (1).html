@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="stylefrreg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="intrig">
+        <header class="top-header">
+            <div class="header-left">
+              <img src="ewulogo.png" alt="East Western University Logo">
+            </div>
+            <div class="header-right">
+              EWU'S EXTRA-CURRICULAM RELATED WEBSITE
+            </div>
+          </header>
+          
+        
+          <!-- Marquee Section -->
+          <div class="marquee-section">
+            <div class="notice">
+              Notice: Classes will be rescheduled this week due to maintenance.
+            </div>
+           
+            <div class="marquee">
+              <marquee behavior="scroll" direction="left">Welcome to EWU! Stay tuned for updates!</marquee>
+            </div>
+            <div class="right-side">
+              
+        
+              <div class="auth-section">
+                <a href="file:///C:/Users/Admin/Desktop/cse347project/login.html">Login</a>
+                <a href="file:///C:/Users/Admin/Desktop/cse347project/register.html">Sign Up</a>
+              </div>
+            </div>
+          </div>
+          </header>
+    <h2>Provide necessary information to sign up</h2>
+    <form action="register.php" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required><br><br>
+        
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+    <footer>
+        <div class="footer-container">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                 <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.geogle.com"><i class="fa-brands fa-google"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+       
+            </div>
+            <!-- Link Section -->
+            <div class="link-section">
+                <a href="https://www.prothomalo.com" target="_blank" class="footer-link">Prothom Alo</a>
+                <a href="https://www.chatgpt.com" target="_blank" class="footer-link">ChatGPT</a>
+                <a href="https://www.w3schools.com" target="_blank" class="footer-link">W3Schools</a>
+                <a href="https://www.aljazeera.com"target="_blank" class="footer-link">Al Jazeera</a>
+                <a href="https://www.premierleague.com"target="_blank" class="footer-link">EPL</a>
+                <a href="https://www.uefa.com"target="_blank" class="footer-link">UEFA</a>
+                <a href="https://www.opera.com"target="_blank" class="footer-link">Opera </a>
+            </div>
+            <p>&copy; 2024 Event Calendar. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

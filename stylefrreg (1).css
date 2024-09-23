@@ -1,0 +1,158 @@
+
+body{
+    background-color: powderblue;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:lightblue;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.header-left img {
+    height: 80px;
+    width: auto;
+  }
+  
+  .header-right {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .marquee-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,white,royalblue );
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left-side, .right-side {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+   background-color: lightblue;
+  }
+  
+  .marquee {
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .marquee marquee {
+    width: 100%;
+  }
+  
+  .auth-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2px;
+    background-color: black;
+  } 
+  
+  .auth-section a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 2px;
+  }
+  
+  .auth-section a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .notice{
+    color: royalblue;
+    font-size: 20px;
+    background-color: black;
+  }
+    
+  
+  
+
+/* Vertical Navbar styling */
+/* Vertical Navbar styling */
+.top-header {
+    
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right,white,royalblue );
+  padding: 2px;
+  
+ 
+}
+footer {
+    background-color:royalblue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 120px;
+    height: 200px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .link-section {
+    margin-top: 10px;
+    
+  }
+  
+  .footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+   
+  
+  
+  .logo-section a[href*="youtube.com"] i {
+    color: #FF0000; /* YouTube red */
+  }
+  .logo-section a[href*="twitter.com"] i {
+    color: #000000; /* Twitter black */
+  }
+  .logo-section a[href*="geogle.com"] i {
+    background: linear-gradient(to right, #FF0000, #FFEB3B, #4CAF50,blue); /* Google colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transparent-repeat:no-repeat;
+  }

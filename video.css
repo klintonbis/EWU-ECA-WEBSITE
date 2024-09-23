@@ -1,0 +1,97 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Logo styling */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+/* Video gallery styling */
+.video-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.video-item {
+    margin-bottom: 10px;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Video styling 
+video {
+    width: 60%;
+    max-width: 30%;
+    border: 2px solid #333;
+}*/
+.fixed-size {
+    width: 60%;  /* Fixed width */
+    height: 50%; /* Fixed height */
+    object-fit: cover; /* Ensures video fits within the box without distortion */
+    border: 2px solid #333;
+}
+footer {
+    background-color:royalblue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 120px;
+    height: 200px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .link-section {
+    margin-top: 10px;
+    
+  }
+  
+  .footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+   
+  
+  
+  .logo-section a[href*="youtube.com"] i {
+    color: #FF0000; /* YouTube red */
+  }
+  .logo-section a[href*="twitter.com"] i {
+    color: #000000; /* Twitter black */
+  }
+  .logo-section a[href*="geogle.com"] i {
+    background: linear-gradient(to right, #FF0000, #FFEB3B, #4CAF50,blue); /* Google colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transparent-repeat:no-repeat;
+  }
+  

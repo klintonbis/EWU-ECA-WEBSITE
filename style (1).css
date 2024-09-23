@@ -1,0 +1,442 @@
+/* Resetting default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+
+  
+  .header-left img {
+    height: 80px;
+    width: auto;
+  }
+  
+  .header-right {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .marquee-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,white,royalblue );
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left-side, .right-side {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+   background-color: lightblue;
+  }
+  
+  .marquee {
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .marquee marquee {
+    width: 100%;
+  }
+  
+  .auth-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2px;
+    background-color: black;
+  } 
+  
+  .auth-section a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 2px;
+  }
+  
+  .auth-section a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .notice{
+    color: royalblue;
+    font-size: 20px;
+    background-color: black;
+  }
+    
+  
+  
+
+/* Vertical Navbar styling */
+/* Vertical Navbar styling */
+.top-header {
+    
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right,white,royalblue );
+  padding: 2px;
+  
+ 
+}
+
+.vertical-navbar {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    height: 100%;
+    width: 200px; /* Adjust width as needed */
+    background-color: #f4f4f4;
+    padding-top: 2px;
+    z-index: 999;
+    border-right: 2px solid #ddd;
+    
+}
+
+.vertical-navbar ul {
+    list-style-type: none;
+}
+
+.vertical-navbar li {
+   padding: 3px;
+    text-align: left;
+    
+}
+
+.vertical-navbar img {
+    width: 30px; /* Adjust size as needed */
+    vertical-align: middle;
+}
+
+.vertical-navbar a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-top: 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.vertical-navbar a:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+/* Main content styling */
+.main-content {
+    margin-left: 220px; /* Adjust according to navbar width */
+    padding: 20px;
+}
+
+h1 {
+    color: #004080;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.vertical-navbar {
+    width: 200px;
+    float: left;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.slideshow-container {
+    position: absolute;
+    
+    top: 180px;
+    width: 1100px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 250px;
+    
+}
+
+.slides {
+    display: none;
+    position: relative;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Add animation to fade in slides */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 30s;
+}
+
+
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 1.1em;
+}
+
+ul li strong {
+    color: #4CAF50;
+}
+
+
+
+
+
+
+  .container {
+    margin-top: 650px;
+    margin-left: 270px;
+    width: 1050px;
+    height: 400px;
+    overflow: auto; /* Allows scrollbars to appear when necessary */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.scrollable-box {
+  
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 1.1em;
+}
+
+ul li strong {
+    color: #4CAF50;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 98%);
+  margin-left: 60px;
+  top:250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  list-style-type: none;
+  padding: 8px 12px;
+}
+
+.dropdown-content li a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown content on hover for Gallery */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Get Involved Dropdown Content */
+.dropdown-contento {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  margin-left: 60px;
+  top: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contento li {
+  list-style-type: none;
+  padding: 8px 12px;
+}
+
+.dropdown-contento li a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contento li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown content on hover for Get Involved */
+.dropdowno:hover .dropdown-contento {
+  display: block;
+}
+  .intrig{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+
+    z-index: 1000;
+    
+  }
+
+  .container{
+    margin-top: 700px;
+    background-image: linear-gradient(to right,aqua,yellow );
+    color: black;
+  }
+  footer {
+    background-color:royalblue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 120px;
+    height: 200px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .link-section {
+    margin-top: 10px;
+    
+  }
+  
+  .footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+   
+  
+  
+  .logo-section a[href*="youtube.com"] i {
+    color: #FF0000; /* YouTube red */
+  }
+  .logo-section a[href*="twitter.com"] i {
+    color: #000000; /* Twitter black */
+  }
+  .logo-section a[href*="geogle.com"] i {
+    background: linear-gradient(to right, #FF0000, #FFEB3B, #4CAF50,blue); /* Google colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transparent-repeat:no-repeat;
+  }
+
+  

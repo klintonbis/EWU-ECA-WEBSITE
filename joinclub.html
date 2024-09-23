@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Clubs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header-left img {
+    height: 80px;
+    width: auto;
+  }
+  
+  .header-right {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .marquee-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,white,royalblue );
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left-side, .right-side {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+   background-color: lightblue;
+  }
+  
+  .marquee {
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .marquee marquee {
+    width: 100%;
+  }
+  
+  .auth-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2px;
+    background-color: black;
+  } 
+  
+  .auth-section a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 2px;
+  }
+  
+  .auth-section a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .notice{
+    color: royalblue;
+    font-size: 20px;
+    background-color: black;
+  }
+    
+  
+  
+
+/* Vertical Navbar styling */
+/* Vertical Navbar styling */
+.top-header {
+    
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right,white,royalblue );
+  padding: 2px;
+  
+ 
+}
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .club {
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .club:hover {
+            transform: translateY(-5px);
+        }
+
+        .club img {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .club h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .club button {
+            padding: 10px 20px;
+            background-color: #0033cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .club button:hover {
+            background-color: #001f99;
+        }
+        footer {
+    background-color:royalblue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 120px;
+    height: 200px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .link-section {
+    margin-top: 10px;
+    
+  }
+  
+  .footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+   
+  
+  
+  .logo-section a[href*="youtube.com"] i {
+    color: #FF0000; /* YouTube red */
+  }
+  .logo-section a[href*="twitter.com"] i {
+    color: #000000; /* Twitter black */
+  }
+  .logo-section a[href*="geogle.com"] i {
+    background: linear-gradient(to right, #FF0000, #FFEB3B, #4CAF50,blue); /* Google colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transparent-repeat:no-repeat;
+  }
+    </style>
+</head>
+<body>
+
+    <!-- Logo at the top -->
+    <header class="intrig">
+        <header class="top-header">
+            <div class="header-left">
+              <img src="ewulogo.png" alt="East Western University Logo">
+            </div>
+            <div class="header-right">
+              EWU'S EXTRA-CURRICULAM RELATED WEBSITE
+            </div>
+          </header>
+          
+        
+          <!-- Marquee Section -->
+          <div class="marquee-section">
+            <div class="notice">
+              Notice: Classes will be rescheduled this week due to maintenance.
+            </div>
+           
+            <div class="marquee">
+              <marquee behavior="scroll" direction="left">Welcome to EWU! Stay tuned for updates!</marquee>
+            </div>
+            <div class="right-side">
+              
+        
+              <div class="auth-section">
+                <a href="file:///C:/Users/User/Desktop/cse347project/login.html">Login</a>
+                <a href="file:///C:/Users/User/Desktop/cse347project/register.html">Register</a>
+              </div>
+            </div>
+          </div>
+          </header>
+    
+
+    <div class="container">
+        <!-- Club 1 -->
+        <div class="club">
+            <img src="sports.png" alt="Programming Club Logo">
+            <h3>sports club</h3>
+            <a href="file:///C:/Users/Asus/OneDrive/Documents/cse347_project/sports.html">Join Now</a>
+        </div>
+
+        <!-- Club 2 -->
+        <div class="club">
+            <img src="programming.png" alt="Performing Arts Club Logo">
+            <h3>Computer Programming Club</h3>
+            <a href="file:///C:/Users/Admin/Desktop/cse347project/joinprog.html">Join Now</a>
+        </div>
+
+        <!-- Club 3 -->
+        <div class="club">
+            <img src="environment.jpg" alt="Debating Club Logo">
+            <h3>Environmental and social club</h3>
+            <a href="file:///C:/Users/Asus/OneDrive/Documents/cse347_project/environmental.html">Join Now</a>
+        </div>
+
+        <!-- Club 4 -->
+        <div class="club">
+            <img src="ecpa.png" alt="Economics Club Logo">
+            <h3>Club of performinf arts</h3>
+            <a href="file:///C:/Users/Asus/OneDrive/Documents/cse347_project/ecpa.html">Join Now</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                 <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.geogle.com"><i class="fa-brands fa-google"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+       
+            </div>
+            <!-- Link Section -->
+            <div class="link-section">
+                <a href="https://www.prothomalo.com" target="_blank" class="footer-link">Prothom Alo</a>
+                <a href="https://www.chatgpt.com" target="_blank" class="footer-link">ChatGPT</a>
+                <a href="https://www.w3schools.com" target="_blank" class="footer-link">W3Schools</a>
+                <a href="https://www.aljazeera.com"target="_blank" class="footer-link">Al Jazeera</a>
+                <a href="https://www.premierleague.com"target="_blank" class="footer-link">EPL</a>
+                <a href="https://www.uefa.com"target="_blank" class="footer-link">UEFA</a>
+                <a href="https://www.opera.com"target="_blank" class="footer-link">Opera </a>
+            </div>
+            <p>&copy; 2024 Event Calendar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

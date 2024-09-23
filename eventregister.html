@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="eventregister.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="intrig">
+        <header class="top-header">
+            <div class="header-left">
+              <img src="ewulogo.png" alt="East Western University Logo">
+            </div>
+            <div class="header-right">
+              EWU'S EXTRA-CURRICULAM RELATED WEBSITE
+            </div>
+          </header>
+          
+        
+          <!-- Marquee Section -->
+          <div class="marquee-section">
+            <div class="notice">
+              Notice: Classes will be rescheduled this week due to maintenance.
+            </div>
+           
+            <div class="marquee">
+              <marquee behavior="scroll" direction="left">Welcome to EWU! Stay tuned for updates!</marquee>
+            </div>
+            <div class="right-side">
+              
+        
+              <div class="auth-section">
+                <a href="file:///C:/Users/User/Desktop/cse347project/login.html">Login</a>
+                <a href="file:///C:/Users/User/Desktop/cse347project/register.html">Register</a>
+              </div>
+            </div>
+          </div>
+          </header>
+    <!-- Event List Section -->
+    <div class="container">
+        <h1>Upcoming Events</h1>
+
+        <div class="event-list">
+            <!-- Fest Event -->
+            <div class="event">
+                <h2>University Fest</h2>
+                <p>Date: October 15, 2024</p>
+                <p>Location: Main Auditorium</p>
+                <button onclick="openRegistrationForm('Fest')">Register</button>
+            </div>
+
+            <!-- Picnic Event -->
+            <div class="event">
+                <h2>Annual Picnic</h2>
+                <p>Date: November 5, 2024</p>
+                <p>Location: National Park</p>
+                <button onclick="openRegistrationForm('Picnic')">Register</button>
+            </div>
+
+            <!-- Seminar Event -->
+            <div class="event">
+                <h2>Seminar on AI</h2>
+                <p>Date: October 30, 2024</p>
+                <p>Location: Seminar Hall 3</p>
+                <button onclick="openRegistrationForm('Seminar')">Register</button>
+            </div>
+
+            <!-- Olympiad Event -->
+            <div class="event">
+                <h2>Math Olympiad</h2>
+                <p>Date: November 20, 2024</p>
+                <p>Location: Science Building</p>
+                <button onclick="openRegistrationForm('Olympiad')">Register</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Form Popup -->
+    <div id="registrationForm" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRegistrationForm()">&times;</span>
+            <h2>Register for <span id="event-name"></span></h2>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                 <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.geogle.com"><i class="fa-brands fa-google"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+       
+            </div>
+            <!-- Link Section -->
+            <div class="link-section">
+                <a href="https://www.prothomalo.com" target="_blank" class="footer-link">Prothom Alo</a>
+                <a href="https://www.chatgpt.com" target="_blank" class="footer-link">ChatGPT</a>
+                <a href="https://www.w3schools.com" target="_blank" class="footer-link">W3Schools</a>
+                <a href="https://www.aljazeera.com"target="_blank" class="footer-link">Al Jazeera</a>
+                <a href="https://www.premierleague.com"target="_blank" class="footer-link">EPL</a>
+                <a href="https://www.uefa.com"target="_blank" class="footer-link">UEFA</a>
+                <a href="https://www.opera.com"target="_blank" class="footer-link">Opera </a>
+            </div>
+            <p>&copy; 2024 Event Calendar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
